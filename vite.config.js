@@ -7,8 +7,8 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: resolve(__dirname, 'index.html'),
-                form: resolve(__dirname, 'formulaire-de-soutien.html'),
-                list: resolve(__dirname, 'liste-des-soutiens.html'),
+                addToList: resolve(__dirname, 'formulaire-de-soutien.html'),
+                getList: resolve(__dirname, 'liste-des-soutiens.html'),
             },
         },
     },
