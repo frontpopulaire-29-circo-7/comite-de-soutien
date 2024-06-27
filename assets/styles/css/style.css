@@ -137,7 +137,7 @@ table {
       font-size: 2rem;
       color: #000000; }
   #home main {
-    background-image: url("/assets/img/home.png");
+    background-image: url("/comite-de-soutien/assets/img/home.png");
     display: grid;
     grid-template-rows: 60% 15% 25%;
     grid-template-columns: 15% 70% 15%; }
@@ -201,7 +201,7 @@ table {
       font-size: 2rem;
       color: #000000; }
   #home main {
-    background-image: url("/assets/img/home.png");
+    background-image: url("/comite-de-soutien/assets/img/home.png");
     display: grid;
     grid-template-rows: 60% 15% 25%;
     grid-template-columns: 15% 70% 15%; }
@@ -265,7 +265,7 @@ table {
       font-size: 2rem;
       color: #000000; }
   #home main {
-    background-image: url("/assets/img/home.png");
+    background-image: url("/comite-de-soutien/assets/img/home.png");
     background-position: center center;
     display: grid;
     grid-template-rows: 50% 25% 25%;
@@ -716,12 +716,42 @@ body {
   display: grid; }
   @media (min-width: 1200px) {
     body {
-      grid-template-rows: 8vh minmax(92vh, max-content) minmax(10vh, max-content); } }
+      grid-template-rows: 8vh minmax(92vh, max-content) minmax(10vh, max-content); }
+      body footer {
+        padding: 2rem 0;
+        text-align: center;
+        font-size: 0.8rem; }
+        body footer p {
+          margin-bottom: 2rem; }
+        body footer li {
+          margin-bottom: 1rem; }
+          body footer li a {
+            color: #E50254; } }
   @media (min-width: 768px) and (max-width: 1199.99px) {
     body {
-      grid-template-rows: 16vh minmax(84vh, max-content) minmax(10vh, max-content); } }
+      grid-template-rows: 16vh minmax(84vh, max-content) minmax(10vh, max-content); }
+      body footer {
+        padding: 2rem 0;
+        text-align: center;
+        font-size: 0.8rem; }
+        body footer p {
+          margin-bottom: 2rem; }
+        body footer li {
+          margin-bottom: 1rem; }
+          body footer li a {
+            color: #E50254; } }
   @media (max-width: 767.99px) {
     body {
-      grid-template-rows: 16vh minmax(84vh, max-content) minmax(10vh, max-content); } }
+      grid-template-rows: 16vh minmax(84vh, max-content) minmax(10vh, max-content); }
+      body footer {
+        padding: 2rem 0;
+        text-align: center;
+        font-size: 0.8rem; }
+        body footer p {
+          margin-bottom: 2rem; }
+        body footer li {
+          margin-bottom: 1rem; }
+          body footer li a {
+            color: #E50254; } }
 
 /*# sourceMappingURL=style.css.map */
