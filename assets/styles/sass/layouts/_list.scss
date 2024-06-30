@@ -92,7 +92,7 @@
       &:before {
         content: '';
         position: absolute;
-        top: calc(16vh - 0.5rem); right: 0; bottom: 0; left: 0;
+        top: calc(20vh - 0.5rem); right: 0; bottom: 0; left: 0;
         z-index: -1;
         margin-bottom: -0.5rem;
         border-radius: inherit;
@@ -173,7 +173,7 @@
       &:before {
         content: '';
         position: absolute;
-        top: calc(16vh - 0.5rem); right: 0; bottom: 0; left: 0;
+        top: calc(20vh - 0.5rem); right: 0; bottom: 0; left: 0;
         z-index: -1;
         margin-bottom: -0.5rem;
         border-radius: inherit;
@@ -189,7 +189,7 @@
     main {
       background-color: $white;
       display: grid;
-      grid-template-columns: 1% 98% 1%;
+      grid-template-columns: 0.5% 99% 0.5%;
       grid-template-rows: max-content max-content max-content max-content;
       row-gap: 1.5rem;
 
@@ -211,7 +211,7 @@
 
       table {
         grid-column: 2 / 3;
-        width:70%;
+        width:90%;
         margin:auto;
         display: grid;
         grid-template-rows: 5vh max-content;

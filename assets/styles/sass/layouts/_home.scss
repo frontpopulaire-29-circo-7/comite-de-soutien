@@ -103,7 +103,7 @@
       &:before {
         content: '';
         position: absolute;
-        top: calc(16vh - 0.5rem); right: 0; bottom: 0; left: 0;
+        top: calc(20vh - 0.5rem); right: 0; bottom: 0; left: 0;
         z-index: -1;
         margin-bottom: -0.5rem;
         border-radius: inherit;
@@ -194,7 +194,7 @@
       &:before {
         content: '';
         position: absolute;
-        top: calc(16vh - 0.5rem); right: 0; bottom: 0; left: 0;
+        top: calc(20vh - 0.5rem); right: 0; bottom: 0; left: 0;
         z-index: -1;
         margin-bottom: -0.5rem;
         border-radius: inherit;
@@ -208,13 +208,16 @@
     }
 
     main {
+      padding:4rem 0;
       background-image: url("/comite-de-soutien/assets/img/home.png");
       background-position: center center;
       display: grid;
       grid-template-rows: 50% 25% 25%;
       grid-template-columns: 15% 70% 15%;
+      row-gap: 2.5rem;
 
       h2 {
+        margin-top: 5vh;
         grid-column: 2 / 3;
         align-self: end;
         margin-bottom: 1.5rem;
