@@ -189,7 +189,7 @@ table {
     #home header:before {
       content: '';
       position: absolute;
-      top: calc(16vh - 0.5rem);
+      top: calc(20vh - 0.5rem);
       right: 0;
       bottom: 0;
       left: 0;
@@ -253,7 +253,7 @@ table {
     #home header:before {
       content: '';
       position: absolute;
-      top: calc(16vh - 0.5rem);
+      top: calc(20vh - 0.5rem);
       right: 0;
       bottom: 0;
       left: 0;
@@ -265,12 +265,15 @@ table {
       font-size: 2rem;
       color: #000000; }
   #home main {
+    padding: 4rem 0;
     background-image: url("/comite-de-soutien/assets/img/home.png");
     background-position: center center;
     display: grid;
     grid-template-rows: 50% 25% 25%;
-    grid-template-columns: 15% 70% 15%; }
+    grid-template-columns: 15% 70% 15%;
+    row-gap: 2.5rem; }
     #home main h2 {
+      margin-top: 5vh;
       grid-column: 2 / 3;
       align-self: end;
       margin-bottom: 1.5rem;
@@ -589,7 +592,7 @@ table {
     #list header:before {
       content: '';
       position: absolute;
-      top: calc(16vh - 0.5rem);
+      top: calc(20vh - 0.5rem);
       right: 0;
       bottom: 0;
       left: 0;
@@ -647,7 +650,7 @@ table {
     #list header:before {
       content: '';
       position: absolute;
-      top: calc(16vh - 0.5rem);
+      top: calc(20vh - 0.5rem);
       right: 0;
       bottom: 0;
       left: 0;
@@ -661,7 +664,7 @@ table {
   #list main {
     background-color: #FFFFFF;
     display: grid;
-    grid-template-columns: 1% 98% 1%;
+    grid-template-columns: 0.5% 99% 0.5%;
     grid-template-rows: max-content max-content max-content max-content;
     row-gap: 1.5rem; }
     #list main figure {
@@ -676,7 +679,7 @@ table {
       text-align: center; }
     #list main table {
       grid-column: 2 / 3;
-      width: 70%;
+      width: 90%;
       margin: auto;
       display: grid;
       grid-template-rows: 5vh max-content;
@@ -729,7 +732,7 @@ body {
             color: #E50254; } }
   @media (min-width: 768px) and (max-width: 1199.99px) {
     body {
-      grid-template-rows: 16vh minmax(84vh, max-content) minmax(10vh, max-content); }
+      grid-template-rows: 20vh minmax(80vh, max-content) minmax(10vh, max-content); }
       body footer {
         padding: 2rem 0;
         text-align: center;
@@ -742,7 +745,7 @@ body {
             color: #E50254; } }
   @media (max-width: 767.99px) {
     body {
-      grid-template-rows: 16vh minmax(84vh, max-content) minmax(10vh, max-content); }
+      grid-template-rows: 20vh minmax(80vh, max-content) minmax(10vh, max-content); }
       body footer {
         padding: 2rem 0;
         text-align: center;
